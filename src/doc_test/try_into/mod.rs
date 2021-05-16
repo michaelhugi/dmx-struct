@@ -1,5 +1,5 @@
 //!contains a testcase for documentation. If this code is rewritten it must be changed in readme and the documentation of lib.rs also.
-#[cfg(test)]
+#![cfg(test)]
 mod tests {
     use std::convert::TryInto;
 
