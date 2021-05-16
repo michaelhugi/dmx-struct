@@ -8,7 +8,14 @@ description = "A struct that holds a DMX Addresse with parsing capabilities"
 homepage = "https://www.koenix-band.ch"
 repository = "https://github.com/michaelhugi/dmx-struct"
 readme = "README.md"
+# ...
+exclude = [
+    "src/doc_test/mod.rs",
+    "src/doc_test/try_from/mod.rs",
+    "src/doc_test/try_into/mod.rs"
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
